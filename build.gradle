@@ -9,18 +9,15 @@ archivesBaseName = 'moonlit_core'
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
-}
-
-minecraft {
-    mappings channel: 'official', version: '1.21.1'
 }
 
 repositories {
     mavenCentral()
     maven { url 'https://maven.neoforged.net/releases' }
     maven { url 'https://maven.minecraftforge.net' }
+    maven { url 'https://maven.theillusivec4.top/' }
 }
 
 dependencies {
