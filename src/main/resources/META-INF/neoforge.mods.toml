@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="moonlit_core"
+version="0.1.0"
+displayName="Moonlit Core"
+description="Core cultivation and combat systems for Moonlit River."
+
+[[dependencies.moonlit_core]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.moonlit_core]]
+modId="curios"
+mandatory=false
+versionRange="[8.0.3,)"
+ordering="NONE"
+side="BOTH"
