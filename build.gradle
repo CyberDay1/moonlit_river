@@ -20,8 +20,13 @@ repositories {
     maven { url 'https://maven.theillusivec4.top/' }
 }
 
+neoForge {
+    version = "21.1.1"
+    mappings channel: 'official', version: '1.21.1'
+}
+
 dependencies {
-    minecraft 'net.neoforged:neoforge:21.1.1'
+    implementation "net.neoforged:neoforge:21.1.1"
     implementation 'top.theillusivec4.curios:curios-neoforge:8.0.3+1.21.1'
 }
 
